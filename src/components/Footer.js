@@ -8,29 +8,29 @@ import instagramfooter from "../context/Images/instagramfooter.png";
 import Nexgen_icon from "../context/Images/Nexgen_icon.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
-  const handleClick =()=>{
-    window.open("https://www.linkedin.com/in/aravind-kumar-5778a1ba/")
-  }
-  const handleClickyou =()=>{
-    window.open("https://www.youtube.com/")
-  }
-  const handleClickyins =()=>{
-    window.open("https://www.instagram.com/desigr_frd/?hl=en")
-  }
+  const handleClick = () => {
+    window.open("https://www.linkedin.com/in/aravind-kumar-5778a1ba/");
+  };
+  const handleClickyou = () => {
+    window.open("https://www.youtube.com/");
+  };
+  const handleClickyins = () => {
+    window.open("https://www.instagram.com/desigr_frd/?hl=en");
+  };
   return (
     <div className="footer_bg">
       <div className="footer_flex">
         <div className="Home_center_footer">
           <div className="">
-            <div className="service_footer mb-2">
-              Your digital Partner
-            </div>
+            <div className="service_footer mb-2">Your digital Partner</div>
             <div className="centerion">
-              <img
-                src={Nexgen_icon}
-                alt="Nexgen_icon"
-                style={{ width: "50%" }}
-              />
+              <Link to="/">
+                <img
+                  src={Nexgen_icon}
+                  alt="Nexgen_icon"
+                  style={{ width: "50%" }}
+                />
+              </Link>
             </div>
           </div>
           <div className="margitopfooter"></div>
@@ -42,17 +42,26 @@ const Footer = () => {
         <div className="Home_center_footer">
           <div className="sQuick_footer">Quick links</div>
           <div className="py-3">
-            <Link to="/" className="homedecratoin"> <div className="Home_footer">Home</div></Link>
-            <Link to="/services" className="homedecratoin"><div className="Home_footer">Services</div></Link>
-            <Link to="/viewportfolio" className="homedecratoin"><div className="Home_footer">Our Works</div></Link>
+            <Link to="/" className="homedecratoin">
+              {" "}
+              <div className="Home_footer">Home</div>
+            </Link>
+            <Link to="/services" className="homedecratoin">
+              <div className="Home_footer">Services</div>
+            </Link>
+            <Link to="/viewportfolio" className="homedecratoin">
+              <div className="Home_footer">Our Works</div>
+            </Link>
             {/*<div className="Home_footer"> Price & Plans </div>*/}
-            <Link to="/contacts" className="homedecratoin"><div className="Home_footer">Free Consultation</div></Link>
+            <Link to="/contacts" className="homedecratoin">
+              <div className="Home_footer">Free Consultation</div>
+            </Link>
           </div>
         </div>
         <div className="Home_center_footer">
           <div className="sQuick_footer">Contacts</div>
           <div className="py-4">
-            <div className="aravind_footer">aravind.nexgen@gmail.com</div>
+            <div className="aravind_footer">nexgen.uno@gmail.com</div>
             <div className="aravind_footer pt-3">+91 93443 38444</div>
             <div className="pt-4"></div>
           </div>
@@ -64,21 +73,21 @@ const Footer = () => {
               <img
                 src={linkedinfooter}
                 alt="linkedinfooter"
-                style={{ width: "70%" }}
+                style={{ width: "65%",cursor:"pointer" }}
               />{" "}
             </div>
             <div onClick={handleClickyou}>
               <img
                 src={youtubefooter}
                 alt="youtubefooter"
-                style={{ width: "70%" }}
+                style={{ width: "65%",cursor:"pointer" }}
               />{" "}
             </div>
             <div onClick={handleClickyins}>
               <img
                 src={instagramfooter}
                 alt="instagramfooter"
-                style={{ width: "70%" }}
+                style={{ width: "65%",cursor:"pointer" }}
               />{" "}
             </div>
           </div>

@@ -7,12 +7,12 @@ export const hamePage = [
     {
         id: 2,
         title: "UI/UX Design Excellence",
-        discription: "Nexgen crafts E-commerce Solutions, tailoring platforms to your brand, prioritizing user experience, ensuring secure payments, and data protection."
+        discription: "Prioritize user-centric design, marrying aesthetics with functionality. Designs ensure beauty, usability, and cross-device performance."
     },
     {
         id: 3,
         title: "E-commerce Solutions",
-        discription: "Prioritize user-centric design, marrying aesthetics with functionality. Designs ensure beauty, usability, and cross-device performance."
+        discription: "Nexgen crafts E-commerce Solutions, tailoring platforms to your brand, prioritizing user experience, ensuring secure payments, and data protection."
     },
     {
         id: 4,

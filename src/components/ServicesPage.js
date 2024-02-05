@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Homeimage5 from "../Images/HomeImages/Homeimage5.png";
+import Homeimage5 from "../Images/HomeImages/Homeimage5.webp";
 import { BsChevronUp } from "react-icons/bs";
 import { BsChevronDown } from "react-icons/bs";
 import { hamePage } from "../HomePage/HomePagejson";
@@ -53,7 +53,7 @@ const ServicesPage = () => {
                         className="d-flex justify-content-between border-bottom my-2  pointer"
                         onClick={(e) => handledropdown(item)}
                       >
-                        <div className="home_Responsive py-3">
+                        <div className="home_Responsive py-3" style={{cursor:"pointer"}}>
                           {" "}
                           {item.title}
                         </div>
@@ -65,9 +65,9 @@ const ServicesPage = () => {
                             width={15}
                           >
                             {toggle1[item.id] ? (
-                              <BsChevronUp className="BsChevronDown_style fw-bold fs-5" />
+                              <BsChevronUp className="BsChevronDown_style fw-bold fs-5 pointer" style={{cursor:"pointer"}} />
                             ) : (
-                              <BsChevronDown className="BsChevronDown_style fw-bold fs-5" />
+                              <BsChevronDown className="BsChevronDown_style fw-bold fs-5 pointer" style={{cursor:"pointer"}} />
                             )}
                           </div>
                         </div>

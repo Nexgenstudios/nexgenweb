@@ -18,7 +18,7 @@ const PriceandPlan = () => {
     {
       id: 1,
       Lacus:
-        "Thrilled with our website! The team understood our brand, delivered beyond expectations—absolute digital magic!",
+        "Thrilled with our website! The team understood our brand, delivered beyond expectations absolute digital magic!",
       name: `Hellen Jummy`,
       disignation: "Financial Counselor",
       icon: "Female.png",
@@ -26,7 +26,7 @@ const PriceandPlan = () => {
     {
       id: 2,
       Lacus:
-        "Couldn't be happier with our site. Seamless collaboration, innovative solutions—our online identity elevated remarkably!",
+        "Couldn't be happier with our site. Seamless collaboration, innovative solutions our online identity elevated remarkably!",
       name: "Ralph Edwards",
       disignation: "Math Teacher",
       icon: "malelogo.png",
@@ -46,7 +46,7 @@ const PriceandPlan = () => {
       Lacus:
         "Impressed by their client-centric approach. Our website is a testament to their dedication and excellence.",
       name: `Hellen Jummy`,
-      disignation: "Financial Counselor",
+      disignation: "Bizzlab",
       icon: "logofemalelaka.png",
     },
     {
@@ -62,7 +62,7 @@ const PriceandPlan = () => {
       Lacus:
         "Bravo! The team seamlessly integrated our feedback, delivering a website that truly resonates with our audience.",
       name: "Hellena John",
-      disignation: "Success Edge",
+      disignation: "Jobify",
       icon: "logofemalelala.png",
     },
   ];

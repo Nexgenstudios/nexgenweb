@@ -4,7 +4,7 @@ import Homeimage2 from "../Images/HomeImages/Homeimage2.png";
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
 import malelogo from "../Images/AboutImages/malelogo.png";
-import nexgen_log_seection from "../Images/HomeImages/nexgen_log_seection.png";
+import nexgen_log_seection from "../Images/HomeImages/nexgen_log_seection.webp";
 import FrameHome9 from "../Images/HomeImages/FrameHome9.png";
 import FrameHome8 from "../Images/HomeImages/FrameHome8.png";
 import FrameHome7 from "../Images/HomeImages/FrameHome7.png";
@@ -18,7 +18,7 @@ import FrameHome1 from "../Images/HomeImages/FrameHome1.png";
 import ScrollCarousel from "scroll-carousel-react";
 import { Col, Row } from "reactstrap";
 import { hamePage } from "../HomePage/HomePagejson";
-import system_homeimage from "../Images/HomeImages/system_homeimage.png";
+import system_homeimage from "../Images/HomeImages/system_homeimage.webp";
 import PriceandPlan from "./PriceandPlan";
 import FaqHandbook from "./FaqHandbook";
 import video from "../Images/HomeImages/nexgen_mp4.mp4";
@@ -31,8 +31,8 @@ import NavbarPage from "../context/Navbar";
 import { FcGoogle } from "react-icons/fc";
 import Fade from "react-reveal/Fade";
 import homepagelogo2 from "../Images/AboutImages/homepagelogo2.webp";
-import homelogpage1 from "../Images/AboutImages/homelogpage1.webp";
-import whateabutbg from "../Images/AboutImages/whateabutbg.png";
+import homelogpage1 from "../Images/AboutImages/homepagelogo2.webp";
+import whateabutbg from "../Images/AboutImages/whateabutbg.webp";
 import bgbackimghome from "../Images/AboutImages/bgbackimghome.webp";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
@@ -249,11 +249,11 @@ function HomePage() {
                 <div className="align-item-center">
                   <div>
                     <div className="home_dev_font">
-                      We build Stunning
+                    Design & {"</code>"}
                       <br />
-                      Websites to boost
+                      Services to boost
                       <br />
-                      your <span className="home_dev1_Revenue">Revenue</span>
+                      your <span className="home_dev1_Revenue">Business</span>
                     </div>
                   </div>
                   <div className=" dev_flex1_home">
